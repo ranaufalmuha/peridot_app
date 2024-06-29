@@ -1,0 +1,52 @@
+/peridot
+│
+├── /public
+│   └── index.html
+│
+├── /src
+│   ├── /assets
+│   │   ├── /images
+│   │   ├── /styles
+│   │   └── /fonts
+│   │
+│   ├── /components
+│   │   ├── /common
+│   │   │   └── Header.js
+│   │   │   └── Footer.js
+│   │   │   └── Sidebar.js
+│   │   │
+│   │   ├── /main
+│   │   │   ├── Home.js
+│   │   │   ├── About.js
+│   │   │   └── Contact.js
+│   │   │
+│   │   └── /gamestore
+│   │       ├── GameList.js
+│   │       ├── GameDetail.js
+│   │       └── Cart.js
+│   │
+│   ├── /contexts
+│   │   └── AppContext.js
+│   │
+│   ├── /hooks
+│   │   └── useAuth.js
+│   │   └── useFetch.js
+│   │
+│   ├── /pages
+│   │   ├── MainPage.js
+│   │   └── GameStorePage.js
+│   │
+│   ├── /services
+│   │   ├── api.js
+│   │   └── auth.js
+│   │
+│   ├── /utils
+│   │   └── helpers.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── routes.js
+│
+├── .gitignore
+├── package.json
+└── README.md
